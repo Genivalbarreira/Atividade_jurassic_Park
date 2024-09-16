@@ -11,6 +11,7 @@ body {
 
 /* COPOR DA PAGINA E FILMES */
 #corpo {
+    min-height: 100%;
     width: 90%;
     max-width: 1200px;
     background-color: #324a3e; 
@@ -31,7 +32,7 @@ body {
 #cabecalho #links {
     display: flex;
     justify-content:space-around;
-    aling-items:center;
+    align-items:center;
     gap:10px;   
 }
 
@@ -47,7 +48,7 @@ body {
     color: #ffd700; 
 }
 #cabecalho #links .botao a:houver{
-    backgroud-color:  #3e5c45;
+    background-color:  #3e5c45;
     color: #b8860b;
     
 }
@@ -129,32 +130,78 @@ body {
 
 
 /* PAGINA DE LOGIN*/
+
+#centraliza{
+    border-top: 2px solid #6d4c41; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+   
+}
 #login{
-    background-color: #FFFFFF;
-    border-radius: 6px;
-    border:2px solid;
-    width: 500px;
-    height: 500px;
-    
-    
+    margin-top: 30px;
+    background-color:  #3e5c45;
+    border-radius: 30px;
+    border:2px solid #6d4c41;
+    width: 450px;
+    height: 450px;
+  
+   
 }
 
 #formulario{
+    margin-top: 80px;
     display:flex;
     flex-direction: column;    
+    align-items: center;
     
 }
 #formulario .campo{
-    border-radius: 6px;
-    border: 2px solid;
-    width: 100px;
-    height: auto;    
-    
+    background-color: #1f4127;
+    border-radius: 30px;
+    border: 3px solid;
+    width: 400px;
+    height: 50px;    
+    margin-top: 40px;
+    align-items: center;
+    text-decoration: none; 
+    border: none; 
+    color: #ffd700;
+    text-align: center;
+
 }
 
+#formulario .campo:focus {
+    border: 2px solid #4CAF50; 
+    outline: none;
+}
 input::placeholder{
-    color: #e2ddb5;
+    color: #ffd700;
     font-size: 19px;
+    text-align: center;
+}
+
+#formulario #enviar {
+    background-color: #798b7a; 
+    border: none;
+    color: #ffd700;
+    padding: 15px 32px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin-top: 20px ;
+    cursor: pointer; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+}
+
+#formulario #enviar:hover {
+    background-color: #45a049; 
+}
+
+#formulario #enviar:active {
+    background-color: #3e8e41; 
 }
 
 
