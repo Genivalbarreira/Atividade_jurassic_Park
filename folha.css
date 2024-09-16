@@ -9,7 +9,7 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-
+/* COPOR DA PAGINA E FILMES */
 #corpo {
     width: 90%;
     max-width: 1200px;
@@ -87,6 +87,10 @@ body {
     color: #e2ddb5; 
 }
 
+
+
+/* parte de prmios*/
+
 #premios {
     margin-top: 30px;
     text-align: center;
@@ -109,6 +113,8 @@ body {
 }
 
 
+
+/*PARTE DO RODA PE*/
 #rodape {
     text-align: center;
     background-color: #324a3e;
@@ -119,5 +125,26 @@ body {
     margin-top: 30px;
     border-radius: 0 0 8px 8px;
 }
+
+
+
+/* PAGINA DE LOGIN*/
+#login{
+    background-color: whiter;
+    border-radius: 6px;
+    border:2px solid;
+}
+
+#formulario{
+    display:flex;
+    flex-direction: column;    
+}
+#formulario .campo{
+    border-radius: 6px;
+    border: 2px solid;
+    font-weight:bold;
+}
+
+
 
 
