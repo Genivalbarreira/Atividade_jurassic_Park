@@ -28,23 +28,23 @@ body {
     text-align: center;
 }
 
-#cabecalho span a {
+#cabecalho #links a {
     text-decoration: none;
     margin: 0 10px;
     color: #ffd700; 
 }
 
-#cabecalho span a:hover {
+#cabecalho #links a:hover {
     color: #b8860b;
 }
 
 
-.links{
+.botao{
     border-radius: 2px;
     margin-left: 5px;
       align-items: center;
 }
-.links:houver{
+.botao:houver{
     backgroud-color:  #3e5c45;
     color: red;
     
