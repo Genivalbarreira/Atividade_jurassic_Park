@@ -38,6 +38,18 @@ body {
     color: #b8860b;
 }
 
+
+.links{
+    border-radius: 2px;
+    margin-left: 5px;
+      align-items: center;
+}
+.links:houver{
+    backgroud-color:  #3e5c45;
+    color: red;
+    
+}
+
 #cabecalho h1 {
     color: #e2ddb5; 
 }
@@ -68,10 +80,8 @@ body {
 }
 
 .caixa_filmes p {
-   /* flex: 1;*/
     margin: 0;
     padding-right: 30px;
-   /* margin-right: 30px;*/
     color: #e2ddb5; 
 }
 
