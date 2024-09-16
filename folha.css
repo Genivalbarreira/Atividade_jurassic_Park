@@ -45,7 +45,7 @@ body {
 .caixa_filmes {
     display: flex;
     flex-direcrion:row;
-    align-intems:flex-start;
+    align-items:flex-start;
     justfy-content:space-between;
     
     margin-bottom: 30px;
