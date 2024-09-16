@@ -130,7 +130,7 @@ body {
 
 /* PAGINA DE LOGIN*/
 #login{
-    background-color: whiter;
+    background-color: #FFFFFF;
     border-radius: 6px;
     border:2px solid;
     width: 500px;
@@ -141,6 +141,7 @@ body {
 #formulario{
     display:flex;
     flex-direction: column;    
+    
 }
 #formulario .campo{
     border-radius: 6px;
@@ -152,7 +153,7 @@ body {
 
 input::placeholder{
     color: #e2ddb5;
-       font-size: 19px;
+    font-size: 19px;
 }
 
 
