@@ -44,9 +44,9 @@ body {
 
 .caixa_filmes {
     display: flex;
-    flex-direcrion:row;
+    flex-direction:row;
     align-items:flex-start;
-    justfy-content:space-between;
+    justify-content:space-between;
     
     margin-bottom: 30px;
     padding: 15px;
@@ -58,7 +58,7 @@ body {
 }
 
 .caixa_filmes img {
-    max-width: 200px;
+    max-width: 90%;
     height: auto;
    /* float: right;*/
     margin-left: 20px;
