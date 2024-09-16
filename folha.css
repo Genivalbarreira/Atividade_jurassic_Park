@@ -28,25 +28,27 @@ body {
     text-align: center;
 }
 
-#cabecalho #links a {
+#cabecalho #links {
+    display: flex;
+    justify-content:space-around;
+    aling-items:center;
+    gap:10px;   
+}
+
+#cabecalho #links .botao{
+     border-radius: 6px;
+    border: 1px solid #8b7765; 
+    padding:5px;
+    
+}
+
+#cabecalho #links .botao a{
     text-decoration: none;
-    margin: 0 10px;
     color: #ffd700; 
 }
-
-#cabecalho #links a:hover {
-    color: #b8860b;
-}
-
-
-.botao{
-    border-radius: 2px;
-    margin-left: 5px;
-      align-items: center;
-}
-.botao:houver{
+#cabecalho #links .botao a:houver{
     backgroud-color:  #3e5c45;
-    color: red;
+    color: #b8860b;
     
 }
 
