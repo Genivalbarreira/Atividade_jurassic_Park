@@ -4,44 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="folha.css">
-
-    <title>atv </title>
+    <title>Login</title>
 </head>
 <body>
 
 <div id="corpo">
-    <div id="cabecalho">
-    <img src="jp_topoLogotipo.png" alt="" srcset="">
-    <div id="links">
-        <div class="botao"><a href="index.html">INICIO</a></div>
-        <div class="botao"><a href="login.html">LOGIN</a></div>
-    </div>
-    </div>
+    <header id="cabecalho">
+        <img src="jp_topoLogotipo.png" alt="">
+        <nav id="links">
+            <div class="botao"><a href="index.html">INICIO</a></div>
+            <div class="botao"><a href="login.html">LOGIN</a></div>
+        </nav>
+    </header>
 
+    <main id="centraliza">
+        <h2>LOGIM</h2>
+        <section id="login">
+            <form action="admin.html" id="formulario">
+                <input type="text" id="usuario" name="usuario" placeholder="Digite seu nome de usuario" required maxlength="30" class="campo">
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha de login" required maxlength="12" class="campo">
+                <input type="submit" name="enviar" value="ENTRAR" id="enviar">    
+            </form>
+        </section>
+    </main>
 
-    <div id="centraliza">
-    <div id="login">
-    <form action="admin.html" id="formulario">
-        <input type="text" id="usuario" name="usuario" placeholder="Digite seu nome de usuario" required  maxlength="30" class="campo">
-        <input type="password" id="senha" name="senha" placeholder="Digite sua senha de login" required  maxlength="12" class="campo">
-        <input type="submit"  name="enviar" value="ENTRAR" id="enviar">    
-    </form>
-    </div>
-    </div>
-
-
-    
-
-
-
-  
-    
-    
-    
     <footer id="rodape">
-        <p>JURASSIC PAGE - O seu canal de informações sobre Jurassic Park  </p>
-    </footer>  
+        <p>JURASSIC PAGE - O seu canal de informações sobre Jurassic Park</p>
+    </footer>
 </div>
- 
+
 </body>
 </html>
