@@ -9,7 +9,6 @@ body {
     font-family: 'Arial', sans-serif;
 }
 
-/* COPOR DA PAGINA E FILMES */
 #corpo {
     min-height: 100%;
     width: 90%;
@@ -21,7 +20,7 @@ body {
     border: 2px solid #6d4c41; 
 }
 
-#cabecalho {
+header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,32 +28,35 @@ body {
     text-align: center;
 }
 
-#cabecalho #links {
+nav {
     display: flex;
-    justify-content:space-around;
-    align-items:center;
-    gap:10px;   
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;   
 }
 
-#cabecalho #links .botao{
-     border-radius: 6px;
+nav .botao {
+    border-radius: 6px;
     border: 1px solid #8b7765; 
-    padding:5px;
-    
+    padding: 5px;
 }
 
-#cabecalho #links .botao a{
+nav .botao a {
     text-decoration: none;
     color: #ffd700; 
 }
-#cabecalho #links .botao a:houver{
-    background-color:  #3e5c45;
+
+nav .botao a:hover {
+    background-color: #3e5c45;
     color: #b8860b;
-    
 }
 
-#cabecalho h1 {
+h1 {
     color: #e2ddb5; 
+}
+
+h2 {
+    color: #ffd700;
 }
 
 .caixa_filmes {
@@ -64,8 +66,6 @@ body {
     border-radius: 8px;
     background-color: #3e5c45; 
     color: #e2ddb5;
-    overflow: hidden
-   
 }
 
 .caixa_filmes img {
@@ -74,137 +74,71 @@ body {
     float: right;
     margin-left: 20px;
     border-radius: 6px;
-    border: 3px solid #8b7765; 
-  
+    border: 2px solid #e2ddb5;
 }
 
-.caixa_filmes h1 {
-    color: #ffd700; 
+#login {
+    display: flex;
+    justify-content: center;
 }
 
-.caixa_filmes p {
-    margin: 0;
-    padding-right: 30px;
-    color: #e2ddb5; 
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
 }
 
-
-
-/* parte de prmios*/
-
-#premios {
-    margin-top: 30px;
-    text-align: center;
+.campo {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #6d4c41;
 }
 
-#premios table {
-    width: 100%;
-    border-collapse: collapse; 
-    background-color: #2f3e34;
+#enviar {
+    padding: 10px;
+    background-color: #3e5c45;
+    color: #ffd700;
+    border-radius: 4px;
+    border: 1px solid #8b7765;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background-color: #8b7765;
     color: #e2ddb5;
 }
 
-#premios th, #premios td {
-    border: 1px solid #6d4c41; 
-    padding: 8px;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
 }
 
-#premios th {
-    background-color: #4c5c4a;
+table th, table td {
+    border: 1px solid #e2ddb5;
+    padding: 10px;
+    text-align: left;
 }
 
+thead {
+    background-color: #6d4c41;
+    color: #ffd700;
+}
 
+tbody tr:nth-child(odd) {
+    background-color: #3e5c45;
+}
 
-/*PARTE DO RODA PE*/
 #rodape {
     text-align: center;
-    background-color: #324a3e;
-    padding: 20px;
-    border-top: 2px solid #6d4c41; 
+    padding: 10px;
+    background-color: #6d4c41;
     color: #e2ddb5;
-    font-size: 14px;
-    margin-top: 30px;
-    border-radius: 0 0 8px 8px;
+    border-radius: 4px;
+    margin-top: 20px;
 }
 
-
-
-/* PAGINA DE LOGIN*/
-
-#centraliza{
-    border-top: 2px solid #6d4c41; 
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
-   
-}
-#login{
-    margin-top: 30px;
-    background-color:  #3e5c45;
-    border-radius: 30px;
-    border:2px solid #6d4c41;
-    width: 450px;
-    height: 450px;
-  
-   
-}
-
-#formulario{
-    margin-top: 80px;
-    display:flex;
-    flex-direction: column;    
-    align-items: center;
-    
-}
-#formulario .campo{
-    background-color: #1f4127;
-    border-radius: 30px;
-    border: 3px solid;
-    width: 400px;
-    height: 50px;    
-    margin-top: 40px;
-    align-items: center;
-    text-decoration: none; 
-    border: none; 
-    color: #ffd700;
-    text-align: center;
-
-}
-
-#formulario .campo:focus {
-    border: 2px solid #4CAF50; 
-    outline: none;
-}
-input::placeholder{
-    color: #ffd700;
-    font-size: 19px;
+h2{
     text-align: center;
 }
-
-#formulario #enviar {
-    background-color: #798b7a; 
-    border: none;
-    color: #ffd700;
-    padding: 15px 32px; 
-    text-align: center; 
-    text-decoration: none; 
-    display: inline-block; 
-    font-size: 16px; 
-    margin-top: 20px ;
-    cursor: pointer; 
-    border-radius: 4px; 
-    transition: background-color 0.3s ease; 
-}
-
-#formulario #enviar:hover {
-    background-color: #45a049; 
-}
-
-#formulario #enviar:active {
-    background-color: #3e8e41; 
-}
-
-
-
-
-
