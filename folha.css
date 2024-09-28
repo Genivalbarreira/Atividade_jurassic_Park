@@ -139,6 +139,9 @@ tbody tr:nth-child(odd) {
     margin-top: 20px;
 }
 
-h2{
+h3{
+    text-align: center;
+}
+h1{
     text-align: center;
 }
