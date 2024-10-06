@@ -77,6 +77,25 @@ h2 {
     border: 2px solid #e2ddb5;
 }
 
+.caixa_filmes_esquerda {
+    margin-bottom: 30px;
+    padding: 15px;
+    border: 1px solid #6d4c41;
+    border-radius: 8px;
+    background-color: #3e5c45; 
+    color: #e2ddb5;
+}
+
+.caixa_filmes_esquerda img {
+    max-width: 90%;
+    height: auto;
+    float: left; 
+    margin-right: 20px; 
+    border-radius: 6px;
+    border: 2px solid #e2ddb5;
+    margin-top: 15px;
+}
+
 #login {
     display: flex;
     justify-content: center;
