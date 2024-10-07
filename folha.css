@@ -70,7 +70,7 @@ h2 {
 }
 
 .caixa_filmes img {
-    max-width: 90%;
+    max-width: 85%;
     height: auto;
     float: right;
     margin-left: 20px;
@@ -89,7 +89,7 @@ h2 {
 }
 
 .caixa_filmes_esquerda img {
-    max-width: 90%;
+    max-width: 85%;
     height: auto;
     float: left; 
     margin-right: 20px; 
