@@ -97,6 +97,10 @@ h2 {
     border-radius: 6px;
     border: 2px solid #e2ddb5;
 }
+p{
+    display: flex;
+    flex-direction: colum;
+}
 
 #login {
     display: flex;
